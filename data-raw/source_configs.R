@@ -46,7 +46,7 @@ html_sites <- list(
   ),
   #### ESPN ####
   ESPN = list(
-    base = "http://games.espn.com/ffl/tools/projections",
+    base = "https://fantasy.espn.com/football/players/projections",
     get_query = function(season, week, pos_id, ...){
       query <-list(slotCategoryId = pos_id)
       if(week == 0){
