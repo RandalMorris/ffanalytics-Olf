@@ -510,7 +510,7 @@ html_sites <- list(
 json_sites <- list(
   #### FantasyFootballNerd ####
   FantasyFootballNerd = list(
-    base = "https://www.fantasyfootballnerd.com/service/draft-projections/json",
+    base = "https://www.fantasyfootballnerd.com/service/",
     api_key = "2tn5un7ws52w",
     get_path = function(season, week, position){
       data_type <- ifelse(week == 0, "draft", "weekly")
