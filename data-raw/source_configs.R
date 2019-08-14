@@ -1,7 +1,7 @@
 html_sites <- list(
   #### CBS ####
   CBS = list(
-    base = "https://www.cbssports.com/fantasy/football/stats/",
+    base = "https://www.cbssports.com/fantasy/football/stats/TEST",
     get_path = function(season, week, position){
       period <- ifelse(week == 0, "season", as.character(week))
       paste(toupper(position), season, period,"projections/nonppr", sep  = "/")
